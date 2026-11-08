@@ -151,3 +151,160 @@ Master the command line with essential tools and core skills.
 1. **File organizer by type** - Challenge
 2. **Word frequency counter** - Challenge
 3. **System health checker** - Challenge
+
+# Section 2
+
+## Networking Fundamentals
+
+### Why Layers
+*4 lessons | 4 challenges*
+
+1. **The Layering Idea** - Challenge
+2. **Seven Layers** - Challenge
+3. **Numbers and Names** - Challenge
+4. **Recap: The Stack** - Challenge
+
+### The Physical Layer
+*3 lessons | 3 challenges*
+
+1. **Bits on a Wire** - Challenge
+2. **How Long Will It Take** - Challenge
+3. **Duplex and Collisions** - Challenge
+
+### Data Link and MACs
+*4 lessons | 4 challenges*
+
+1. **Frames and MACs** - Challenge
+2. **Reading a MAC** - Challenge
+3. **ARP** - Challenge
+4. **Recap: Layer Two** - Challenge
+
+### The Network Layer
+*4 lessons | 4 challenges*
+
+1. **IP and TTL** - Challenge
+2. **Ping and ICMP** - Challenge
+3. **Routing Tables** - Challenge
+4. **Recap: Layer Three** - Challenge
+
+### Transport: TCP and UDP
+*5 lessons | 5 challenges*
+
+1. **Ports** - Challenge
+2. **The TCP Handshake** - Challenge
+3. **TCP vs UDP** - Challenge
+4. **Sockets in Action** - Challenge
+5. **Recap: Layer Four** - Challenge
+
+### The Upper Layers
+*4 lessons | 4 challenges*
+
+1. **Session and Presentation** - Challenge
+2. **The Application Layer** - Challenge
+3. **Watching the Layers** - Challenge
+4. **Recap: Top of the Stack** - Challenge
+
+### Encapsulation
+*4 lessons | 4 challenges*
+
+1. **Wrapping Data** - Challenge
+2. **Headers Everywhere** - Challenge
+3. **Reading a Capture** - Challenge
+4. **Recap: Follow the Wrap** - Challenge
+
+### The Journey of a Packet
+*4 lessons | 4 challenges*
+
+1. **A Click Happens** - Challenge
+2. **Crossing the Networks** - Challenge
+3. **Arriving and Climbing** - Challenge
+4. **Recap: End to End** - Challenge
+
+### Syllabus
+*10 chapters | 46 lessons | 46 challenges*
+
+### Bits and Binary
+*4 lessons | 4 challenges*
+
+1. **Numbers as Bits** - Challenge
+2. **Binary to Decimal** - Challenge
+3. **Powers of Two** - Challenge
+4. **Recap - Binary Warm-up** - Challenge
+
+### IPv4 Anatomy
+*5 lessons | 5 challenges*
+
+1. **Four Octets** - Challenge
+2. **The 32-Bit View** - Challenge
+3. **Network and Host** - Challenge
+4. **Valid or Not** - Challenge
+5. **Recap - Read an Address** - Challenge
+
+### The Subnet Mask
+*5 lessons | 5 challenges*
+
+1. **What a Mask Does** - Challenge
+2. **Mask to Prefix** - Challenge
+3. **Prefix to Mask** - Challenge
+4. **ANDing It Out** - Challenge
+5. **Recap - Mask Basics** - Challenge
+
+### CIDR Notation
+*4 lessons | 4 challenges*
+
+1. **Goodbye Classes** - Challenge
+2. **Reading CIDR** - Challenge
+3. **Block Sizes** - Challenge
+4. **Recap - CIDR Reading** - Challenge
+
+### Inside a Subnet
+*5 lessons | 5 challenges*
+
+1. **Network Address** - Challenge
+2. **Broadcast Address** - Challenge
+3. **Usable Hosts** - Challenge
+4. **First and Last Host** - Challenge
+5. **Recap - Subnet Facts** - Challenge
+
+### Subnetting Drills
+*5 lessons | 5 challenges*
+
+1. **The Block Size Trick** - Challenge
+2. **Which Subnet Am I In** - Challenge
+3. **Splitting a /24** - Challenge
+4. **Splitting Again** - Challenge
+5. **Recap - Subnetting Drills** - Challenge
+
+### Special Addresses
+*4 lessons | 4 challenges*
+
+1. **Private Ranges** - Challenge
+2. **Loopback** - Challenge
+3. **Link-Local** - Challenge
+4. **Zero and Broadcast** - Challenge
+
+### Planning Networks
+*5 lessons | 5 challenges*
+
+1. **Right-Sizing** - Challenge
+2. **VLSM Step by Step** - Challenge
+3. **Allocation Order** - Challenge
+4. **Checking for Overlap** - Challenge
+5. **Recap - Plan a Network** - Challenge
+
+### IPv6 First Steps
+*4 lessons | 4 challenges*
+
+1. **Why IPv6** - Challenge
+2. **Reading IPv6** - Challenge
+3. **Prefixes in IPv6** - Challenge
+4. **Recap - IPv6 Basics** - Challenge
+
+### Capstone - The Office
+*5 lessons | 5 challenges*
+
+1. **The Floor Plan** - Challenge
+2. **Sizing Each Team** - Challenge
+3. **Carving the Block** - Challenge
+4. **The Router's View** - Challenge
+5. **Recap - Ship the Plan** - Challenge
