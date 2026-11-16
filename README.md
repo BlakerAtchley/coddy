@@ -1,581 +1,241 @@
-# Computer Networking Study Path
+# Coddy Hands-On Training Portfolio
 
-A structured, hands-on learning roadmap for building practical networking skills from the command line to real-world troubleshooting and Docker networking.
+![Computer Networking Path](https://img.shields.io/badge/Computer%20Networking%20Path-Complete-2ea44f)
+![Certificates](https://img.shields.io/badge/Certificates-8-1f6feb)
+![Lessons](https://img.shields.io/badge/Path%20lessons-282-1f6feb)
+![Challenges](https://img.shields.io/badge/Graded%20challenges-280-1f6feb)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-In%20progress-d29922)
 
-## Overview
+Verified, hands-on training completed on [Coddy](https://coddy.tech) in a live, browser-based Linux terminal. Every lesson ends in a graded challenge, so each certificate reflects commands I actually ran, not videos I watched.
 
-This path is designed to teach networking in the same order a network engineer typically learns it: terminal fluency first, then the OSI model, IP addressing, DNS and ports, reachability tools, HTTP and TLS, and finally LAN troubleshooting and container networking.
+This repo is part of my path into **Cloud Security Engineering**. The full plan lives in my [roadmap](https://github.com/BlakerAtchley/roadmap).
 
-The curriculum emphasizes practice, not memorization. Each stage introduces core concepts, then reinforces them through terminal commands, challenge exercises, and lab-style scenarios.
+---
 
-## Learning Objectives
+## Contents
 
-By the end of this path, learners should be able to:
+- [Highlights](#highlights)
+- [Certificates](#certificates)
+- [Computer Networking learning path](#computer-networking-learning-path-complete)
+- [Projects and capstones](#projects-and-capstones)
+- [Cybersecurity track](#cybersecurity-track-in-progress)
+- [Skills demonstrated](#skills-demonstrated)
+- [Full curriculum](#full-curriculum)
 
-- Use essential Linux terminal commands confidently
-- Explain the OSI and TCP/IP networking models
-- Work with IPv4 addresses, masks, CIDR, and subnetting
-- Understand DNS, ports, sockets, and common troubleshooting tools
-- Use `ping`, `curl`, and protocol inspection to debug connectivity and HTTP issues
-- Build and troubleshoot small local area networks (LANs)
-- Understand Docker images, containers, volumes, networks, and how they connect
+---
 
-## Course Progression
+## Highlights
 
-| Step | Focus | Lessons | Challenges | Outcome |
+- **Completed the Computer Networking learning path:** 6 courses, 282 lessons and 280 graded challenges
+- **8 verifiable certificates** across Linux, networking, Docker and cybersecurity
+- **Hands-on projects:** Bash backup automation, log analysis, a containerized app, a subnet plan for an office and a broken branch network brought back online
+- **Now training in cybersecurity:** incident investigation, evidence handling and recovery
+
+---
+
+## Certificates
+
+Click a certificate name to verify it on Coddy. PDF copies are in [`certificates/`](certificates/).
+
+| Date | Certificate | Type | PDF |
+| --- | --- | --- | --- |
+| 2026-11-15 | [Cybersecurity: Security Fundamentals](https://coddy.tech/certifications/tj6FfM-cybersecurity-l0kMWP) | Section | [PDF](certificates/2026-11-15_cybersecurity-security-fundamentals.pdf) |
+| 2026-11-14 | **[Computer Networking](https://coddy.tech/certifications/tj6FfM-path-networking)** | **Learning path (6 courses, 282 lessons)** | [PDF](certificates/2026-11-14_computer-networking-path.pdf) |
+| 2026-11-14 | [Terminal: Introduction to Docker](https://coddy.tech/certifications/tj6FfM-terminal-fhs4B2) | Section | [PDF](certificates/2026-11-14_introduction-to-docker.pdf) |
+| 2026-11-14 | [LAN Labs](https://coddy.tech/certifications/tj6FfM-AYJDHQ) | Course | [PDF](certificates/2026-11-14_lan-labs.pdf) |
+| 2026-11-10 | [Networking with the Terminal](https://coddy.tech/certifications/tj6FfM-qnnXQ5) | Course | [PDF](certificates/2026-11-10_networking-with-the-terminal.pdf) |
+| 2026-11-08 | [IP Addressing and Subnetting](https://coddy.tech/certifications/tj6FfM-LDYK7g) | Course | [PDF](certificates/2026-11-08_ip-addressing-and-subnetting.pdf) |
+| 2026-11-07 | [The OSI Model](https://coddy.tech/certifications/tj6FfM-cZAW4t) | Course | [PDF](certificates/2026-11-07_the-osi-model.pdf) |
+| 2026-11-05 | [Terminal Fundamentals](https://coddy.tech/certifications/tj6FfM-terminal-JRk84c) | Section | [PDF](certificates/2026-11-05_terminal-fundamentals.pdf) |
+
+---
+
+## Computer Networking learning path (complete)
+
+The path teaches networking in the order a network engineer learns it: terminal fluency first, then the OSI model, IP addressing, DNS and ports, reachability tools, HTTP and TLS, LAN troubleshooting and container networking. Each stage introduces the concepts, then drills them with terminal commands, graded challenges and lab scenarios.
+
+| Step | Course | Lessons | Challenges | What I can do now |
 | --- | --- | ---: | ---: | --- |
-| 1 | Fundamentals | 82 | 80 | Build command-line confidence and folder/file mastery |
-| 2 | OSI and networking layers | 32 | 32 | Understand how data moves through a network |
-| 3 | IP addressing and subnetting | 46 | 46 | Work with IPv4, masks, CIDR, and VLSM |
-| 4 | Hosts, DNS, ports, HTTP, TLS | 47 | 47 | Debug real communication between machines |
-| 5 | LAN lab and troubleshooting | 35 | 35 | Configure and fix small network environments |
-| 6 | Docker networking | 40 | 40 | Learn container fundamentals and network behavior |
+| 1 | Terminal Fundamentals | 82 | 80 | Navigate and manage a Linux filesystem; use wildcards, redirection, pipes and `grep`; set permissions with `chmod`; configure the environment; write Bash scripts with input, conditions and loops |
+| 2 | The OSI Model | 32 | 32 | Explain all seven layers and the TCP/IP model; read MAC addresses and ARP; describe routing, TTL and ICMP; compare TCP and UDP; trace encapsulation and a packet's end-to-end journey |
+| 3 | IP Addressing and Subnetting | 46 | 46 | Convert binary; read IPv4 and CIDR; find network, broadcast and usable host ranges; subnet a /24; plan networks with VLSM and check for overlap; read IPv6 prefixes |
+| 4 | Networking with the Terminal | 47 | 47 | Resolve names with DNS; work with ports and sockets; test reachability with `ping`; write HTTP requests by hand; send data and debug with `curl`; diagnose TLS and authentication failures |
+| 5 | LAN Labs | 35 | 35 | Build and address small networks; read ARP and switch tables; configure gateways and routing; find and fix wrong masks, missing gateways, address clashes and routing faults |
+| 6 | Introduction to Docker | 40 | 40 | Pull, tag, run, inspect and manage containers; write Dockerfiles with `COPY`, `WORKDIR` and `CMD`; copy files in and out; use volumes and container networks |
+| | **Total** | **282** | **280** | |
 
 ---
 
-## Step 1: Fundamentals
+## Projects and capstones
 
-### Purpose
-Master the command line with essential tools and core techniques. Every networking tool in this path is ultimately a terminal command, so this stage establishes the foundation.
+| Project | Course | What I built |
+| --- | --- | --- |
+| Backup Script | Terminal Fundamentals | Bash script that prompts for a source directory, creates a timestamped backup folder (`date +%Y%m%d_%H%M%S`), copies the files and confirms each step |
+| Log Analyzer | Terminal Fundamentals | Read a log file, filtered out the errors, counted occurrences and generated a report using command-line tools |
+| Organize Photos | Terminal Fundamentals | Built a folder structure, moved and copied files with `mkdir`, `mv`, `cp` and `rm`, then verified the final layout |
+| Capstone: The Office | IP Addressing and Subnetting | Sized each team's subnet, carved one address block with VLSM and checked the plan from the router's view |
+| Capstone: Fix the Branch | LAN Labs | Surveyed a broken branch network, fixed an address clash, wrong masks and gateways, then proved it worked |
+| Greeting App | Introduction to Docker | Wrote a Dockerfile, built and ran the image, personalized the app and shipped a tagged version |
 
-### Prerequisites
-- No prior knowledge required
+**Final challenges passed**
 
-### Key topics
-- Filesystem navigation and permissions
-- File and directory management
-- Wildcards and pattern matching
-- Reading logs and filtering results
-- Redirection and piping
-- Environment variables and shell scripting
-- Backup automation project and final challenges
-
-### Syllabus
-
-#### 01. Introduction
-- What is the terminal
-- Your first command
-- Comments
-
-#### 02. Navigation
-- Print working directory
-- List files
-- Change directory
-- Absolute vs relative paths
-- Home and root directories
-- Recap: find your way
-
-#### 03. Files
-- Create a file
-- Read a file
-- Copy a file
-- Move and rename a file
-- Delete a file
-- Recap: file operations
-
-#### 04. Directories
-- Create a directory
-- Copy a directory
-- Move and rename a directory
-- Delete a directory
-- Recap: directory operations
-
-#### 05. Organize Photos Project
-- Project overview
-- Creating the structure
-- Moving the files
-- Cleaning up
-
-#### 06. Wildcards and Patterns
-- The star wildcard
-- The question mark wildcard
-- Bracket wildcards
-- Combining wildcards
-- Recap: selective operations
-
-#### 07. File Content
-- Head and tail
-- Word count
-- Sort command
-- Unique command
-- Grep basics
-- Grep with flags
-- Recap: text detective
-
-#### 08. Redirection
-- Standard output
-- Overwrite to a file
-- Append to a file
-- Standard input
-- Standard error
-- Recap: log builder
-
-#### 09. Piping
-- What is a pipe
-- Chaining two commands
-- Chaining multiple commands
-- Pipe with grep
-- Recap: data pipeline
-
-#### 10. Log Analyzer Project
-- Project overview
-- Viewing the log file
-- Filtering errors
-- Counting occurrences
-- Generating a report
-
-#### 11. Permissions
-- Understanding permissions
-- Reading permissions
-- chmod with numbers
-- chmod with symbols
-- File ownership
-- Recap: lock it down
-
-#### 12. Environment
-- Environment variables
-- View all variables
-- The PATH variable
-- Setting a variable
-- Export a variable
-- The profile file
-- Recap: custom environment
-
-#### 13. Shell Scripting Basics
-- What is a shell script
-- Create and run a script
-- Variables in scripts
-- User input in scripts
-- If statements
-- For loops
-- While loops
-- Recap: number guesser
-
-#### 14. Backup Script Project
-- Project overview
-- Getting the source path
-- Creating backup folder
-- Copying the files
-- Adding a timestamp
-- Success message
-
-#### 15. Final Challenges
-- File organizer by type
-- Word frequency counter
-- System health checker
+- **Bash:** file organizer by type, word frequency counter, system health checker
+- **Docker:** distro detective, full build pipeline, runtime file drop
 
 ---
 
-## Step 2: The Seven Layers of Networking
+## Cybersecurity track (in progress)
 
-### Purpose
-Explore how networks really function, one layer at a time. This section introduces the seven OSI layers and the related TCP/IP model, explaining what lives at each layer and how data is encapsulated as it traverses the network.
+A scenario-based track where I work as the first security analyst for a small company.
 
-### Prerequisites
-- Comfortable running commands in a terminal
-- No networking knowledge required
+| Section | Status | Focus |
+| --- | --- | --- |
+| Security Fundamentals | ✅ Complete | Investigating alerts, reviewing access, strengthening passwords, handling email attacks, verifying authorization, containing and recovering from an incident |
+| Investigating a Breach | 🔄 15 / 20 lessons | Tracing suspicious programs to their source, saving evidence, removing persistence, proving the recovery |
+| Stopping the Spread | ⏳ Next | Tracing suspicious connections, containing affected computers, restricting access |
 
-### Key topics
-- Layered architecture and communication models
-- Physical and data link layers
-- MAC addresses and ARP
-- Network layer and routing fundamentals
-- TCP, UDP, ports, and sockets
-- Encapsulation and packet journey
-
-### Syllabus
-
-#### 01. Why Layers
-- The layering idea
-- Seven layers
-- Numbers and names
-- Recap: the stack
-
-#### 02. The Physical Layer
-- Bits on a wire
-- How long will it take
-- Duplex and collisions
-
-#### 03. Data Link and MACs
-- Frames and MACs
-- Reading a MAC
-- ARP
-- Recap: layer two
-
-#### 04. The Network Layer
-- IP and TTL
-- Ping and ICMP
-- Routing tables
-- Recap: layer three
-
-#### 05. Transport: TCP and UDP
-- Ports
-- The TCP handshake
-- TCP vs UDP
-- Sockets in action
-- Recap: layer four
-
-#### 06. The Upper Layers
-- Session and presentation
-- The application layer
-- Watching the layers
-- Recap: top of the stack
-
-#### 07. Encapsulation
-- Wrapping data
-- Headers everywhere
-- Reading a capture
-- Recap: follow the wrap
-
-#### 08. The Journey of a Packet
-- A click happens
-- Crossing the networks
-- Arriving and climbing
-- Recap: end to end
+**Also in progress:** Git version control (27 / 58 lessons)
 
 ---
 
-## Step 3: IP Addressing and Subnetting
+## Skills demonstrated
 
-### Purpose
-Master IP addresses from the bits up. This step builds the arithmetic and reasoning required to correctly design, divide, and troubleshoot network ranges.
-
-### Prerequisites
-- Comfortable running commands in a terminal
-- No networking knowledge required
-
-### Key topics
-- Binary and decimal conversion
-- IPv4 anatomy
-- Subnet masks and CIDR
-- Network and broadcast addresses
-- Subnetting drills and VLSM
-- Private address ranges and IPv6 basics
-
-### Syllabus
-
-#### 01. Bits and Binary
-- Numbers as bits
-- Binary to decimal
-- Powers of two
-- Recap: binary warm-up
-
-#### 02. IPv4 Anatomy
-- Four octets
-- The 32-bit view
-- Network and host
-- Valid or not
-- Recap: read an address
-
-#### 03. The Subnet Mask
-- What a mask does
-- Mask to prefix
-- Prefix to mask
-- ANDing it out
-- Recap: mask basics
-
-#### 04. CIDR Notation
-- Goodbye classes
-- Reading CIDR
-- Block sizes
-- Recap: CIDR reading
-
-#### 05. Inside a Subnet
-- Network address
-- Broadcast address
-- Usable hosts
-- First and last host
-- Recap: subnet facts
-
-#### 06. Subnetting Drills
-- The block size trick
-- Which subnet am I in
-- Splitting a /24
-- Splitting again
-- Recap: subnetting drills
-
-#### 07. Special Addresses
-- Private ranges
-- Loopback
-- Link-local
-- Zero and broadcast
-
-#### 08. Planning Networks
-- Right-sizing
-- VLSM step by step
-- Allocation order
-- Checking for overlap
-- Recap: plan a network
-
-#### 09. IPv6 First Steps
-- Why IPv6
-- Reading IPv6
-- Prefixes in IPv6
-- Recap: IPv6 basics
-
-#### 10. Capstone: The Office
-- The floor plan
-- Sizing each team
-- Carving the block
-- The router's view
-- Recap: ship the plan
+| Area | Skills |
+| --- | --- |
+| Linux | Filesystem navigation, wildcards, `grep`, pipes and redirection, permissions and ownership, environment variables, Bash scripting |
+| Networking | OSI and TCP/IP models, MAC and ARP, routing tables, TCP vs. UDP, ports and sockets, encapsulation |
+| Addressing | Binary, IPv4, subnet masks, CIDR, VLSM network planning, private and special ranges, IPv6 basics |
+| Troubleshooting | `ping` and ICMP, DNS lookups, HTTP status codes, `curl` debugging, TLS failures, LAN fault isolation |
+| Containers | Docker images and containers, Dockerfiles, volumes, container networks |
+| Security | Alert triage, access review, phishing handling, incident containment and recovery (in progress) |
 
 ---
 
-## Step 4: Hosts, DNS, Ports, and HTTP
+## Full curriculum
 
-### Purpose
-Learn how machines actually talk to each other from the command line. This stage combines addressing, naming, reachability checks, and application-layer debugging using real hosts.
+Everything below is completed. Expand a step to see the chapters and lessons.
 
-### Prerequisites
-- Comfortable running commands in a terminal
-- No networking knowledge required
+<details>
+<summary><b>Step 1: Terminal Fundamentals</b> (82 lessons, 80 challenges)</summary>
 
-### Key topics
-- Clients and servers
-- DNS and hostnames
-- Ports and sockets
-- `ping` and reachability checks
-- HTTP request and response basics
-- `curl` usage and debugging
-- Sending data and HTTPS/TLS
+Master the command line. Every networking tool in the path is a terminal command, so this stage builds the foundation.
 
-### Syllabus
+| Chapter | Lessons |
+| --- | --- |
+| 01. Introduction | What is the terminal, your first command, comments |
+| 02. Navigation | `pwd`, listing files, changing directory, absolute vs. relative paths, home and root directories |
+| 03. Files | Create, read, copy, move and rename, delete |
+| 04. Directories | Create, copy, move and rename, delete |
+| 05. Organize Photos Project | Project overview, creating the structure, moving the files, cleaning up |
+| 06. Wildcards and Patterns | `*`, `?`, bracket wildcards, combining wildcards |
+| 07. File Content | `head` and `tail`, `wc`, `sort`, `uniq`, `grep` basics and flags |
+| 08. Redirection | Standard output, overwrite, append, standard input, standard error |
+| 09. Piping | Pipes, chaining two and multiple commands, piping into `grep` |
+| 10. Log Analyzer Project | Viewing the log, filtering errors, counting occurrences, generating a report |
+| 11. Permissions | Reading permissions, `chmod` with numbers and symbols, file ownership |
+| 12. Environment | Environment variables, `PATH`, setting and exporting variables, the profile file |
+| 13. Shell Scripting Basics | Creating and running scripts, variables, user input, `if`, `for` and `while` loops |
+| 14. Backup Script Project | Source path, backup folder, copying files, timestamps, success message |
+| 15. Final Challenges | File organizer by type, word frequency counter, system health checker |
 
-#### 01. How Networks Talk
-- What is a network
-- Clients and servers
-- IP addresses
-- Your first request
+</details>
 
-#### 02. Names and DNS
-- Why names exist
-- The hosts file
-- Looking up a name
-- Record types
-- Recap: names
+<details>
+<summary><b>Step 2: The OSI Model</b> (32 lessons, 32 challenges)</summary>
 
-#### 03. Ports and Sockets
-- What is a port
-- Well-known ports
-- Localhost
-- Listening vs connecting
-- Recap: ports
+How networks really work, one layer at a time: the seven OSI layers, the TCP/IP model, and how data is encapsulated as it crosses a network.
 
-#### 04. Is It Reachable?
-- ICMP and ping
-- Reading ping output
-- When ping lies
-- Refused or timed out
-- Recap: reachability
+| Chapter | Lessons |
+| --- | --- |
+| 01. Why Layers | The layering idea, the seven layers, numbers and names |
+| 02. The Physical Layer | Bits on a wire, transmission time, duplex and collisions |
+| 03. Data Link and MACs | Frames and MACs, reading a MAC, ARP |
+| 04. The Network Layer | IP and TTL, `ping` and ICMP, routing tables |
+| 05. Transport: TCP and UDP | Ports, the TCP handshake, TCP vs. UDP, sockets in action |
+| 06. The Upper Layers | Session and presentation, the application layer, watching the layers |
+| 07. Encapsulation | Wrapping data, headers, reading a capture |
+| 08. The Journey of a Packet | A click happens, crossing networks, arriving and climbing the stack |
 
-#### 05. HTTP by Hand
-- Anatomy of a request
-- Request methods
-- Status codes
-- Response headers
-- Writing a response
-- Recap: HTTP basics
+</details>
 
-#### 06. curl in Depth
-- Seeing the headers
-- Saving responses
-- Custom headers
-- Status and timing
-- curl exit codes
-- Recap: curl flags
+<details>
+<summary><b>Step 3: IP Addressing and Subnetting</b> (46 lessons, 46 challenges)</summary>
 
-#### 07. Sending Data
-- POST with `-d`
-- What `-d` actually sends
-- Form encoding
-- Sending JSON
-- PUT and DELETE
-- Recap: writing data
+IP addresses from the bits up: the math and reasoning to design, divide and troubleshoot network ranges.
 
-#### 08. HTTPS and TLS
-- Why HTTPS
-- The scheme picks the port
-- Certificates and trust
-- When TLS fails
-- Recap: HTTPS
+| Chapter | Lessons |
+| --- | --- |
+| 01. Bits and Binary | Numbers as bits, binary to decimal, powers of two |
+| 02. IPv4 Anatomy | Four octets, the 32-bit view, network and host, valid or not |
+| 03. The Subnet Mask | What a mask does, mask to prefix, prefix to mask, ANDing |
+| 04. CIDR Notation | Classless addressing, reading CIDR, block sizes |
+| 05. Inside a Subnet | Network address, broadcast address, usable hosts, first and last host |
+| 06. Subnetting Drills | The block size trick, which subnet am I in, splitting a /24 and splitting again |
+| 07. Special Addresses | Private ranges, loopback, link-local, zero and broadcast |
+| 08. Planning Networks | Right-sizing, VLSM step by step, allocation order, checking for overlap |
+| 09. IPv6 First Steps | Why IPv6, reading IPv6, IPv6 prefixes |
+| 10. Capstone: The Office | Floor plan, sizing each team, carving the block, the router's view |
 
-#### 09. Auth and Debugging
-- API keys and authentication
-- The user agent
-- Timeouts and retries
-- Reading a failure
-- Recap: debugging
+</details>
 
----
+<details>
+<summary><b>Step 4: Networking with the Terminal</b> (47 lessons, 47 challenges)</summary>
 
-## Step 5: LAN Lab and Troubleshooting
+How machines actually talk to each other, tested from the command line against real hosts.
 
-### Purpose
-Build, address, and troubleshoot small networks in a terminal lab. Learners move from theory to practical diagnostics by configuring hosts, switches, routers, gateways, and routing tables.
+| Chapter | Lessons |
+| --- | --- |
+| 01. How Networks Talk | Networks, clients and servers, IP addresses, your first request |
+| 02. Names and DNS | Why names exist, the hosts file, looking up a name, record types |
+| 03. Ports and Sockets | Ports, well-known ports, localhost, listening vs. connecting |
+| 04. Is It Reachable? | ICMP and `ping`, reading ping output, when ping lies, refused vs. timed out |
+| 05. HTTP by Hand | Request anatomy, methods, status codes, response headers, writing a response |
+| 06. curl in Depth | Headers, saving responses, custom headers, status and timing, exit codes |
+| 07. Sending Data | POST with `-d`, form encoding, sending JSON, PUT and DELETE |
+| 08. HTTPS and TLS | Why HTTPS, scheme and port, certificates and trust, when TLS fails |
+| 09. Auth and Debugging | API keys and authentication, user agent, timeouts and retries, reading a failure |
 
-### Prerequisites
-- Comfortable running commands in a terminal
-- Basic understanding of IP addresses and subnet masks
+</details>
 
-### Key topics
-- Creating a lab environment
-- Addressing hosts on a LAN
-- ARP and switch behavior
-- Gateway and routing concepts
-- Common network faults and fixes
-- Scaling office networks and branch troubleshooting
+<details>
+<summary><b>Step 5: LAN Labs</b> (35 lessons, 35 challenges)</summary>
 
-### Syllabus
+Build, address and troubleshoot small networks in a terminal lab with hosts, switches, routers, gateways and routing tables.
 
-#### 01. Meet the Lab
-- Your first lab
-- Cables
-- Wires are not enough
-- Recap: build a lab
+| Chapter | Lessons |
+| --- | --- |
+| 01. Meet the Lab | Your first lab, cables, why wires are not enough |
+| 02. Addresses on the LAN | Addressing a host, the first ping, what ARP learned, how the switch learns |
+| 03. Masks Matter | Wrong mask and no reply, same switch but another subnet, diagnosing the pair |
+| 04. Routers and Gateways | Two networks, the default gateway, return paths, routing tables |
+| 05. Troubleshooting I | Unplugged host, missing gateway, typo in the mask |
+| 06. Troubleshooting II | Duplicate addresses, the network address trap, gateway on the wrong subnet |
+| 07. Growing the Office | Planning, bringing Sales and Engineering online, gateways everywhere |
+| 08. Capstone: Fix the Branch | Surveying the damage, fixing the address clash, masks and gateways, proving it works |
 
-#### 02. Addresses on the LAN
-- Giving a host an address
-- The first ping
-- What ARP learned
-- The switch learns too
-- Recap: first conversation
+</details>
 
-#### 03. Masks Matter
-- Wrong mask, no reply
-- Same switch, other subnet
-- Let’s check: do the looking
-- Recap: diagnose the pair
+<details>
+<summary><b>Step 6: Introduction to Docker</b> (40 lessons, 40 challenges)</summary>
 
-#### 04. Routers and Gateways
-- Two networks
-- The default gateway
-- Both sides need a way back
-- Routing tables
-- Recap: connect the floors
+Docker from the command line: how containers are built and run, get addresses, talk to each other and reach the outside world.
 
-#### 05. Troubleshooting I
-- The unplugged host
-- The missing gateway
-- The typo in the mask
-- Recap: two faults
+| Chapter | Lessons |
+| --- | --- |
+| 01. Introduction | What Docker is, images vs. containers |
+| 02. Images | Pulling, listing and tagging images |
+| 03. Running Containers | Running commands, different distros, auto-remove containers |
+| 04. Managing Containers | Naming, detached mode, listing, stopping and removing |
+| 05. Inspecting Containers | Logs, inspecting details, executing commands inside a container |
+| 06. Building Images | Dockerfiles, building an image, the `CMD` instruction |
+| 07. Files in Images | The `COPY` and `WORKDIR` instructions |
+| 08. Copying Files | Copying into and out of a container |
+| 09. Volumes and Networks | Volumes, container networks |
+| 10. Greeting App Project | Writing the Dockerfile, build and run, personalizing, shipping a tagged version |
+| 11. Final Challenges | Distro detective, full build pipeline, runtime file drop |
 
-#### 06. Troubleshooting II
-- Two devices, one address
-- The network address trap
-- Gateway on the wrong subnet
-- Recap: the silent router
-
-#### 07. Growing the Office
-- The plan
-- Sales comes online
-- Engineering joins
-- Gateways everywhere
-- Recap: the printer
-
-#### 08. Capstone: Fix the Branch
-- Survey the damage
-- Fix the address clash
-- Masks and gateways
-- Recap: prove it works
+</details>
 
 ---
 
-## Step 6: Docker and Container Networking
-
-### Purpose
-Learn Docker from the command line and understand how containers get addresses, communicate with each other, and reach the outside world.
-
-### Prerequisites
-- Completion of the Fundamentals section
-
-### Key topics
-- Docker concepts and container architecture
-- Pulling and running images
-- Building custom Dockerfiles
-- Copying files into and out of containers
-- Volumes and networks
-- Docker app project and final challenges
-
-### Syllabus
-
-#### 01. Introduction
-- What is Docker
-- Images and containers
-
-#### 02. Images
-- Pulling images
-- Listing images
-- Tagging images
-- Recap: image wrangler
-
-#### 03. Running Containers
-- Running a command
-- Real execution
-- Different distros
-- Auto-remove containers
-- Recap: container runner
-
-#### 04. Managing Containers
-- Naming containers
-- Detached containers
-- Listing all containers
-- Stopping and removing containers
-- Recap: container lifecycle
-
-#### 05. Inspecting Containers
-- Container logs
-- Inspecting details
-- Executing commands
-- Recap: health check
-
-#### 06. Building Images
-- What is a Dockerfile
-- Building an image
-- The CMD instruction
-- Recap: image builder
-
-#### 07. Files in Images
-- The COPY instruction
-- The WORKDIR instruction
-- Recap: package it up
-
-#### 08. Copying Files
-- Copy into a container
-- Copy out of a container
-
-#### 09. Volumes and Networks
-- Volumes
-- Networks
-- Recap: managing resources
-
-#### 10. Greeting App Project
-- Project overview
-- Write the Dockerfile
-- Build and run
-- Personalize the greeting
-- Ship a tagged version
-
-#### 11. Final Challenges
-- Distro detective
-- Full build pipeline
-- Runtime file drop
-
----
-
-## Recommended Study Approach
-
-For best results, work through the path in order, treating each step as a building block:
-
-1. Build terminal confidence in Step 1.
-2. Learn the abstraction model in Step 2.
-3. Master the address math in Step 3.
-4. Practice debugging with real protocols in Step 4.
-5. Apply your knowledge in a simulated network environment in Step 5.
-6. Expand into modern infrastructure concepts through Docker networking in Step 6.
-
-This sequence mirrors how networking skills are commonly developed in professional IT, systems, and cloud environments.
-
-## Final Note
-
-This curriculum combines conceptual understanding with practical lab work. The value comes not from reading alone, but from using the commands, exploring packet flows, and repeatedly troubleshooting the kinds of issues that appear in real networks.
+_Last updated: 2026-11-16_
