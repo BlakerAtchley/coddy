@@ -55,19 +55,32 @@ Each course has its own detailed write-up covering every chapter and every grade
 
 ## Certificates
 
-Click a certificate name to verify it on Coddy. PDF copies are in [`certificates/`](certificates/).
+All 9 credentials are issued by **Coddy** to **BrA**. Click a credential ID to verify it on Coddy (the ID can also be checked at [coddy.tech/certifications](https://coddy.tech/certifications)). PDF copies are in [`certificates/`](certificates/).
 
-| Date | Certificate | Type | PDF |
-| --- | --- | --- | --- |
-| 2026-11-16 | [Cybersecurity: Investigating a Breach](https://coddy.tech/certifications/tj6FfM-cybersecurity-cFAQiR) | Section | — |
-| 2026-11-15 | [Cybersecurity: Security Fundamentals](https://coddy.tech/certifications/tj6FfM-cybersecurity-l0kMWP) | Section | [PDF](certificates/2026-11-15_cybersecurity-security-fundamentals.pdf) |
-| 2026-11-14 | **[Computer Networking](https://coddy.tech/certifications/tj6FfM-path-networking)** | **Learning path (6 courses, 282 lessons)** | [PDF](certificates/2026-11-14_computer-networking-path.pdf) |
-| 2026-11-14 | [Terminal: Introduction to Docker](https://coddy.tech/certifications/tj6FfM-terminal-fhs4B2) | Section | [PDF](certificates/2026-11-14_introduction-to-docker.pdf) |
-| 2026-11-14 | [LAN Labs](https://coddy.tech/certifications/tj6FfM-AYJDHQ) | Course | [PDF](certificates/2026-11-14_lan-labs.pdf) |
-| 2026-11-10 | [Networking with the Terminal](https://coddy.tech/certifications/tj6FfM-qnnXQ5) | Course | [PDF](certificates/2026-11-10_networking-with-the-terminal.pdf) |
-| 2026-11-08 | [IP Addressing and Subnetting](https://coddy.tech/certifications/tj6FfM-LDYK7g) | Course | [PDF](certificates/2026-11-08_ip-addressing-and-subnetting.pdf) |
-| 2026-11-07 | [The OSI Model](https://coddy.tech/certifications/tj6FfM-cZAW4t) | Course | [PDF](certificates/2026-11-07_the-osi-model.pdf) |
-| 2026-11-05 | [Terminal Fundamentals](https://coddy.tech/certifications/tj6FfM-terminal-JRk84c) | Section | [PDF](certificates/2026-11-05_terminal-fundamentals.pdf) |
+| Issued | Credential | Type | Scope | Credential ID | Write-up | PDF |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2026-11-16 | Cybersecurity: Investigating a Breach | Section | 20 lessons · 20 challenges | [tj6FfM-cybersecurity-cFAQiR](https://coddy.tech/certifications/tj6FfM-cybersecurity-cFAQiR) | [Details](Cybersecurity-Investigating-a-Breach.md) | — |
+| 2026-11-15 | Cybersecurity: Security Fundamentals | Section | 43 lessons · 43 challenges | [tj6FfM-cybersecurity-l0kMWP](https://coddy.tech/certifications/tj6FfM-cybersecurity-l0kMWP) | [Details](Cybersecurity-Security-Fundamentals.md) | [PDF](certificates/2026-11-15_cybersecurity-security-fundamentals.pdf) |
+| 2026-11-14 | **Computer Networking Learning Path** | **Learning path** | **6 courses · 282 lessons** | [tj6FfM-path-networking](https://coddy.tech/certifications/tj6FfM-path-networking) | [Path summary](#computer-networking-learning-path-complete) | [PDF](certificates/2026-11-14_computer-networking-path.pdf) |
+| 2026-11-14 | Terminal: Introduction to Docker | Section | 40 lessons · 40 challenges | [tj6FfM-terminal-fhs4B2](https://coddy.tech/certifications/tj6FfM-terminal-fhs4B2) | [Details](Introduction-to-Docker.md) | [PDF](certificates/2026-11-14_introduction-to-docker.pdf) |
+| 2026-11-14 | LAN Labs | Course | 35 lessons · 35 challenges | [tj6FfM-AYJDHQ](https://coddy.tech/certifications/tj6FfM-AYJDHQ) | [Details](LAN-Labs.md) | [PDF](certificates/2026-11-14_lan-labs.pdf) |
+| 2026-11-10 | Networking with the Terminal | Course | 47 lessons · 47 challenges | [tj6FfM-qnnXQ5](https://coddy.tech/certifications/tj6FfM-qnnXQ5) | [Details](Networking-with-the-Terminal.md) | [PDF](certificates/2026-11-10_networking-with-the-terminal.pdf) |
+| 2026-11-08 | IP Addressing and Subnetting | Course | 46 lessons · 46 challenges | [tj6FfM-LDYK7g](https://coddy.tech/certifications/tj6FfM-LDYK7g) | [Details](IP-Addressing-and-Subnetting.md) | [PDF](certificates/2026-11-08_ip-addressing-and-subnetting.pdf) |
+| 2026-11-07 | The OSI Model | Course | 32 lessons · 32 challenges | [tj6FfM-cZAW4t](https://coddy.tech/certifications/tj6FfM-cZAW4t) | [Details](The-OSI-Model.md) | [PDF](certificates/2026-11-07_the-osi-model.pdf) |
+| 2026-11-05 | Terminal Fundamentals | Section | 82 lessons · 80 challenges | [tj6FfM-terminal-JRk84c](https://coddy.tech/certifications/tj6FfM-terminal-JRk84c) | [Details](Terminal-Fundamentals.md) | [PDF](certificates/2026-11-05_terminal-fundamentals.pdf) |
+
+### Computer Networking Learning Path certificate
+
+Started **2026-11-03**, finished **2026-11-14** (12 days). The path certificate is earned through these six certificates:
+
+| Step | Earned through | Type | Issued |
+| ---: | --- | --- | --- |
+| 1 | Terminal Fundamentals | Terminal section | 2026-11-05 |
+| 2 | The OSI Model | Course | 2026-11-07 |
+| 3 | IP Addressing and Subnetting | Course | 2026-11-08 |
+| 4 | Networking with the Terminal | Course | 2026-11-10 |
+| 5 | LAN Labs | Course | 2026-11-14 |
+| 6 | Introduction to Docker | Terminal section | 2026-11-14 |
 
 ---
 
